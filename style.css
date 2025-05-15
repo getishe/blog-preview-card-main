@@ -35,3 +35,37 @@ body {
   color: hsl(0, 0%, 7%);
   line-height: 1.6;
 }
+/* for medium weight text */
+.medium-text {
+  font-weight: 500;
+}
+/* for extra bold text */
+.bold-text {
+  font-weight: 800;
+}
+/* for italic text */
+.italic-text {
+  font-style: italic;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.card_background {
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 80%);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 3px 3px red, -1em 0 0.4em; */
+  box-shadow: 7px 7px red;
+  height: 100%;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
