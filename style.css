@@ -113,6 +113,27 @@ section {
 .card_author {
   display: flex;
   justify-content: flex-start;
+  /* border: 2px solid hsl(0, 0%, 7%) */
   align-items: center;
+  gap: 12px;
   margin-top: 12px;
+}
+
+.card_author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.card_author h3 {
+  font-size: 0.9rem;
+  color: hsl(0, 1%, 16%);
+}
+
+.attribution {
+  font-size: 11px;
+  /* text-align: center; */
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
