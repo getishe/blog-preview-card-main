@@ -59,10 +59,10 @@ section {
   margin: 1rem;
   border-radius: 8px;
   background-color: hsl(0, 0%, 100%);
-  border: 2px solid hsl(0, 0%, 80%);
+  border: 0.1px solid hsl(0, 0%, 7%);
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   /* box-shadow: 3px 3px red, -1em 0 0.4em; */
-  box-shadow: 7px 7px red;
+  box-shadow: 7px 7px hsl(0, 0%, 7%);
   height: 100%;
   width: 400px;
   justify-content: center;
