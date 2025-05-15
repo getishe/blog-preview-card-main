@@ -52,20 +52,67 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+  margin: 0;
+  /* height: 100vh; */
 }
 .card_background {
   padding: 2rem;
-  margin: 1rem;
+  margin: 0;
   border-radius: 8px;
   background-color: hsl(0, 0%, 100%);
   border: 0.1px solid hsl(0, 0%, 7%);
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   /* box-shadow: 3px 3px red, -1em 0 0.4em; */
   box-shadow: 7px 7px hsl(0, 0%, 7%);
-  height: 100%;
+  /* height: 100%; */
   width: 400px;
   justify-content: center;
   align-items: center;
   display: grid;
+}
+
+/* for the card image */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card_content {
+  /* border: 2px solid hsl(0, 0%, 7%); */
+  border-radius: 8px;
+}
+
+.card_title h1 {
+  font-size: 1rem;
+  background-color: hsl(47, 88%, 63%);
+  width: 90px;
+  padding-left: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.card_title p {
+  font-size: 0.8rem;
+  color: hsl(0, 1%, 16%);
+  margin-bottom: 12px;
+}
+
+.card_text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.card_text p {
+  font-size: 0.9rem;
+  color: hsl(0, 1%, 16%);
+  margin-bottom: 12px;
+}
+
+.card_author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 12px;
 }
