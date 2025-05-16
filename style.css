@@ -73,6 +73,13 @@ section {
   display: grid;
 }
 
+.card_background:hover {
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-5px);
+  cursor: pointer;
+}
+
 /* for the card image */
 .card img {
   width: 100%;
