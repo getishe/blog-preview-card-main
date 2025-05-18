@@ -31,10 +31,10 @@ Users should be able to:
 ### Screenshot
 
 For Desktop
-![blog-preview-card-main](design/desktop-design.jpg)
+![blog-preview-card-main](design/desktop-design.jpeg)
 
 For Mobile
-![blog-preview-card-main](design/mobile-design.jpg)
+![blog-preview-card-main](design/mobile-design.jpeg)
 
 ### Links
 
