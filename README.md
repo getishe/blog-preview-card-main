@@ -31,15 +31,15 @@ Users should be able to:
 ### Screenshot
 
 For Desktop
-![](./desktop-design.jpg)
+![blog-preview-card-main](design/desktop-design.jpg)
 
 For Mobile
-![](./mobile-design.jpg)
+![blog-preview-card-main](design/mobile-design.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/getishe/blog-preview-card-main.git)
-- Live Site URL: [Add live site URL here](https://https://getishe.github.io/blog-preview-card-main/)
+- Solution URL: [Live](https://github.com/getishe/blog-preview-card-main.git)
+- Live Site URL: [Github Repository](https://getishe.github.io/blog-preview-card-main/)
 
 ## My process
 
